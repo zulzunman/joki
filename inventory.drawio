@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.14">
   <diagram name="Page-1" id="GwwidDlx5tM6EXgnuAiY">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uCuYNQckd42B3MPDOt4k-1" value="Staff Purchasing" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="650" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uCuYNQckd42B3MPDOt4k-1" source="uCuYNQckd42B3MPDOt4k-4" target="uCuYNQckd42B3MPDOt4k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,var(--ge-dark-color, #121212));" vertex="1" parent="uCuYNQckd42B3MPDOt4k-1">
+          <mxGeometry x="50" y="35" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uCuYNQckd42B3MPDOt4k-1" source="uCuYNQckd42B3MPDOt4k-5" target="uCuYNQckd42B3MPDOt4k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-5" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uCuYNQckd42B3MPDOt4k-1">
+          <mxGeometry x="130" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uCuYNQckd42B3MPDOt4k-1" source="uCuYNQckd42B3MPDOt4k-7" target="uCuYNQckd42B3MPDOt4k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-7" value="Melakukan pemilihan vendor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uCuYNQckd42B3MPDOt4k-1">
+          <mxGeometry x="130" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uCuYNQckd42B3MPDOt4k-1" source="uCuYNQckd42B3MPDOt4k-9" target="uCuYNQckd42B3MPDOt4k-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-9" value="Melakukan pemesanan barang ke vendor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uCuYNQckd42B3MPDOt4k-1">
+          <mxGeometry x="320" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-11" value="report pemesanan barang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uCuYNQckd42B3MPDOt4k-1">
+          <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-2" value="Staff Gudang Penerimaan" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="770" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uCuYNQckd42B3MPDOt4k-2" source="uCuYNQckd42B3MPDOt4k-13" target="uCuYNQckd42B3MPDOt4k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-13" value="Menerima report pemesanan barang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uCuYNQckd42B3MPDOt4k-2">
+          <mxGeometry x="450" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uCuYNQckd42B3MPDOt4k-2" source="uCuYNQckd42B3MPDOt4k-15" target="uCuYNQckd42B3MPDOt4k-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-15" value="Melakukan pengecekan barang yang datang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uCuYNQckd42B3MPDOt4k-2">
+          <mxGeometry x="450" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-17" value="Melakukan pengecekan barang yang datang" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="uCuYNQckd42B3MPDOt4k-2">
+          <mxGeometry x="650" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-3" value="Staff Gudang Distribusi" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="650" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uCuYNQckd42B3MPDOt4k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uCuYNQckd42B3MPDOt4k-11" target="uCuYNQckd42B3MPDOt4k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
